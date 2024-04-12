@@ -1,0 +1,74 @@
+.what{
+    width: 381px;
+}
+.Tags{
+    width: 84px;
+    height: 24px;
+    border-radius: 5px;
+    color: #FDFEFF;
+    font-family: var(--open);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0.28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: sticky;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.why{
+    background: #6397E5;
+}
+.nat{
+    background: #41D750;
+}
+.lif{
+    background: #E5BF5E;
+}
+.spr{
+    background: #F42A2A;
+}
+.oth{
+    background: black;
+}
+.Title p{
+    display: flex;
+    width: 377px;
+    height: 51px;
+    flex-direction: column;
+    justify-content: center;
+    color: #292929;
+    font-family: var(--open);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.44px;
+    text-transform: capitalize;
+    margin-top: 26px;
+}
+.Next h6 span{
+    color: #9A9A9A;
+    font-family: var(--open);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.24px;
+}
+.Next p{
+    color: #9A9A9A;
+    font-family: var(--open);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.24px;
+}
+.des{
+    color: #9A9A9A;
+    font-family: var(--open);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.24px;
+}

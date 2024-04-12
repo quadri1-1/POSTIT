@@ -1,0 +1,55 @@
+.desp{
+    width: 816.304px;
+    color: #7B7B7B;
+    font-family: var(--open);
+    font-size: 21.935px;
+    font-weight: 400;
+    line-height: 42.304px;
+    letter-spacing: 0.439px;
+}
+.edt{
+    width: 164.514px;
+        height: 51.704px;
+        flex-shrink: 0;
+        border-radius: 7.834px;
+        background: #0086B0;
+        margin-left: -15px;
+        color: white;
+}
+.dell{
+    width: 164.514px;
+        height: 51.704px;
+        flex-shrink: 0;
+        border-radius: 7.834px;
+        border: 1.567px solid #0086B0;
+        background-color: white;
+        margin-left: 15px;
+        color: #0086B0;
+}
+.dats hr{
+    width: 94%;
+    height: 2px;
+    background-color: #DDDDDD;
+}
+.dats section p{
+    color: #757575;
+        font-family: var(--ham);
+        font-size: 37.603px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.752px;
+        padding-right: 47.75px ;
+}
+.fact{
+    color: #292929;
+}
+.wells{
+    color: #292929;
+    font-family: var(--open);
+    font-size: 28.202px;
+    font-weight: 600;
+    line-height: 50.138px;
+    letter-spacing: 0.564px;
+    text-transform: capitalize;
+}

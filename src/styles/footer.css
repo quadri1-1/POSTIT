@@ -1,0 +1,138 @@
+.about img {
+    font-family: var(--open);
+    color: #fff;
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+}
+
+.about p {
+    font-family: var(--open);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.quick h2 {
+    font-family: var(--ham);
+    color: #fff;
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: var(--open); 
+}
+.list ul{
+    list-style-type: none;
+}
+.news h2 {
+    font-family: var(--ham);
+    color: #fff;
+    font-size: 20px;
+    line-height: 43px;
+}
+
+.button {
+    display: flex;
+    background-color: #fff;
+    height: 39px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button button {
+    background-color: #0086B0;
+    border: none;
+    height: 27px;
+    width: 95px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.form {
+    border: none;
+    background-color: transparent;
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    height: 39px;
+}
+
+.term {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.term p {
+    font-family: var(--open);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.image {
+    display: flex;
+    gap: 10px;
+}
+
+.background {
+    background-color: #292929;;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hr{
+    width: 1240px;
+    height: 0px;
+    background-color: #fff;
+    
+}
+
+@media (min-width:1000px) {
+    
+    .back {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about {
+        width: 427px;
+        height: 189px;
+    }
+
+    .list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .background {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .quick {
+        height: 174px;
+        width: 290px;
+    }
+
+    .news {
+        height: 94px;
+        width: 337px;
+    }
+}
+@media(max-width: 768px){
+.hr{
+        display: none;
+    }
+}
